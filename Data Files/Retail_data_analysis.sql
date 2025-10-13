@@ -1,5 +1,5 @@
 -- Create a new database called 'Retail_data_analysis'
--- Connect to the 'master' database to run this snippet
+-- Connect to the 'master' database to run.
 USE master
 GO
 -- Create the new database if it does not exist already
@@ -78,4 +78,5 @@ FROM Transactions
 SELECT prod_sub_cat_code
 FROM Retail_data_analysis.dbo.prod_cat_info
 WHERE prod_subcat = 'DIY'
+
 
